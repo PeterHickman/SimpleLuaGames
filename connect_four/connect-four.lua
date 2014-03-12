@@ -138,9 +138,6 @@ function the_computer_makes_a_move(board, symbol)
 
   local r, c, v, pos, other_symbol
 
-  -- We need to check that the move is valid. i.e. that there are 
-  -- no cells with a 0 in them below the line being created
-
   -- Can we create a line
   for _,v in pairs(all_lines_of_four) do
     pos = place_a_fourth(board, v, symbol)
@@ -163,7 +160,7 @@ function the_computer_makes_a_move(board, symbol)
 
   -- Perhaps do something intelligent
 
-  -- Now what?
+  -- No idea, just look for a free column
   for r=6,1,-1 do
     for c=1,7 do
       if board[r][c] == 0 then
