@@ -11,3 +11,7 @@ An implementation of connect four. The computer opponent lacks some skills as it
 ## Blocks
 
 The same as 2048 or Threes. Slide the grid Up, Down, left and Right and get tiles with the same letter to merge and go up a letter. Game stops when you get to the letter 'z'
+
+## Sudoku
+
+A simple Sudoku solver, quite basic at the moment
